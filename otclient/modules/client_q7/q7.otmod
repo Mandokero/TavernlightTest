@@ -1,0 +1,9 @@
+Module
+  name: client_q7
+  description: stuff for question 7 of the test
+  author: Daniel Rios
+  website: mandoqueer.itch.io
+  sandboxed: true
+  scripts: [ q7.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

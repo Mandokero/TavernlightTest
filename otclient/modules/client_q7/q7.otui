@@ -1,0 +1,16 @@
+MainWindow
+  !text: tr('')
+  size: 450 450
+
+  @onEnter: modules.game_spells.destroy()
+  @onEscape: modules.game_spells.destroy()
+
+  Button
+    id: jumpButton
+    !text: tr('Jump!')
+    anchors.top: parent.top
+    anchors.right: parent.right
+    margin-right: 5
+    margin-top: 5
+    width: 60
+    @onClick: modules.client_q7.jumpClick()

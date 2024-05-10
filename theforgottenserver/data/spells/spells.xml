@@ -144,6 +144,11 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
+	<!-- CUSTOM SPELL FOR QUESTION 5 -->
+	<instant group="attack" spellid="180" name="Rage of Typhoon" words="super" level="1" mana="0" direction="1" range="3" selftarget="0" premium="0" cooldown="0" groupcooldown="0" needlearn="0" script="attack/rage_of_typhoon.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Master Sorcerer" /> 
+	</instant>
 	<instant group="attack" spellid="178" name="Scorch" words="exevo infir flam hur" level="1" mana="8" direction="1" cooldown="4000" groupcooldown="2000" needlearn="0" script="attack/scorch.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
@@ -382,7 +387,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant group="support" spellid="10" name="Light" words="utevo lux" level="8" mana="20" aggressive="0" selftarget="1" cooldown="2000" groupcooldown="2000" needlearn="0" script="support/light.lua">
+	<instant group="support" spellid="10" name="Light" words="utevo lux" level="1" mana="0" aggressive="0" selftarget="1" cooldown="0" groupcooldown="2000" needlearn="0" script="support/light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
